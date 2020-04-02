@@ -1,0 +1,22 @@
+.nav-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: max-content;
+  padding: 20px;
+}
+
+.div-logo {
+  width: 160px;
+}
+
+.busca-fit {
+  input {
+    height: 30px;
+    padding: 5px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-right: 5px;
+  }
+}
