@@ -1,0 +1,74 @@
+
+.box-verde-container {
+  display: flex;
+  flex-direction: column;
+  background-color: $green;
+  padding: 20px;
+  width: 40%;
+  border-radius: 8px;
+  height: max-content;
+}
+
+.titulo-box {
+  background-color: $white;
+  background-image: $gradient1;
+  padding: 10px;
+  width: max-content;
+  height: max-content;
+  border-radius: 10px;
+
+  p {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: $white;
+  margin: 0;
+  }
+}
+
+.mini-box-flex {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 100%;
+  margin-top: 12px;
+  height: max-content;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.foto-autor {
+  margin-right: 22px;
+  img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+  }
+}
+
+
+.tema-e-autoria {
+  h3 {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: $white;
+  }
+
+  p {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: $grey;
+    position: relative;
+  }
+
+  p:before {
+    border-top: 2px solid #585858;
+    width: 30px;
+    height: 1px;
+    position: absolute;
+    top: -3px;
+    line-height: 1.3rem;
+    content: '';
+  }
+}
