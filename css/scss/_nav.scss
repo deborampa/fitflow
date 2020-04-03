@@ -12,11 +12,14 @@
 
 .busca-fit {
   input {
-    height: 30px;
+    height: 50px;
     padding: 5px;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
     font-weight: 300;
     margin-right: 5px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid #C6C6C6;
   }
 }

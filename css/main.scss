@@ -3,8 +3,12 @@
 @import "./scss/carrossel";
 @import "./scss/container-posts";
 @import "./scss/box-verde";
+@import "./scss/footer";
+@import "./scss/icones";
 
-
+.row{
+  margin: 0;
+}
 h1 {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 3.3rem;

@@ -1,0 +1,46 @@
+.footer{
+  background-color: $grey;
+  .borda{
+    border-bottom: 1px solid $borda_footer;
+  }
+  .info-footer{
+    padding: 2% 0;
+    .links-footer{
+      background-color: transparent;
+      .list-group-item{
+        background-color: $grey;
+        border: none;
+        color: white;
+        font-size: 0.8rem;
+        padding: 0 10px;
+        text-transform: uppercase;
+
+        .logo-footer{
+          width: 150px;
+        }
+      }
+    }
+    .copyright{
+      @media (max-width: 768px) {
+        padding: 5% 0;
+      }
+      .texto-copyright{
+        color: white;
+        font-size: 0.7rem;
+      }
+    }
+  }
+  .parceiros-footer{
+    background-color: $grey;
+    padding: 1.5% 0;
+
+    .list-group-item{
+      background-color: $grey;
+      border: none;
+      color: white;
+      font-size: 0.8rem;
+      padding: 0 10px;
+      text-transform: uppercase;
+    }
+   }
+}

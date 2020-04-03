@@ -4,7 +4,7 @@
   flex-direction: column;
   background-color: $green;
   padding: 20px;
-  width: 40%;
+  width: 100%;
   border-radius: 8px;
   height: max-content;
 }
@@ -70,5 +70,20 @@
     top: -3px;
     line-height: 1.3rem;
     content: '';
+  }
+}
+
+.propaganda{
+  border:1px solid #707070;
+  border-radius: 10px;
+  padding: 5%;
+  margin: 5% 0 !important;
+  color: $blue;
+
+  .btn-propaganda{
+    background-color: $blue;
+    color: white;
+    font-size: 1.2rem;
+    width: 90%;
   }
 }
